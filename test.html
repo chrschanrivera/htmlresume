@@ -4,11 +4,33 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>MyFirstWebsite</title>
+    <Style>
+        /* FOR ALL THE ELEMENT SELECTOR */
+        h1 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: rgb(10, 73, 75);
+            color:azure;
+            text-align: center;
+        }
+        /* ID FOR SPECIFIC ELEMENT */
+    #form1{
+        color: yellow;
+        
+    }
+/* CLASS - GROUP ELEMENTS */
+    .couriernew {
+            font-family: 'Courier New';
+        }
+        .yellowbg{
+            background-color: yellow !important;
+        }
+    </Style>
 </head>
 <body>
     <!-- eme -->
     <h1>Hello Word!</h1>
-    <p> <strong>Paragraph</strong> <br>
+    <!-- COMBINATION CLASS -->
+    <p class="couriernew yellowbg"> <strong>Paragraph</strong> <br>
         <hr><u><em>break</em></u></p>
         <!-- end of eme -->
 
@@ -65,17 +87,11 @@
 <span>
     Hello World
 </span>
-<span>
-    Hello World
-</span>
 <!-- Div Tag -->
 
-<header>
-    Hello PH
-</header>
 <!-- INPUT TAG -->
-<main>
-    <h1>This is an example of form</h1>
+<!-- ID and CLASS combination -->
+    <h1 id="form1" class="couriernew">This is an example of form</h1>
  <form>
         <!-- text box -->
 <input type="text" placeholder="Full name" required>
@@ -117,7 +133,7 @@
 <button type="reset">Clear</button>
     </form>
 
-</main>
+
 <footer>
    All rights reserved.
 </footer>
