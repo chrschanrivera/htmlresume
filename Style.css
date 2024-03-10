@@ -1,0 +1,21 @@
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: rgb(10, 73, 75);
+    color:azure;
+    text-align: center;
+}
+/* ID FOR SPECIFIC ELEMENT */
+#form1{
+color: yellow;
+
+}
+/* CLASS - GROUP ELEMENTS */
+.couriernew {
+    font-family: 'Courier New';
+}
+.yellowbg{
+    background-color: yellow !important;
+}
+.link{
+    text-decoration: none;
+}
